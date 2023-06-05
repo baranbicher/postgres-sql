@@ -1,3 +1,3 @@
---film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.
+--film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
 
-SELECT * FROM film WHERE length > 60 AND length < 75;
+SELECT title, description FROM film;
